@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Economica&family=Grape+Nuts&family=Roboto:wght@100;300;400;700;900&display=swap");
+*{
+    margin: 0%;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #01161E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.weather-box{
+    z-index: 2;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.weather-box > div {
+    margin: 0.925rem;
+  }
+  .weather-box temperature{
+    font-size: 10px;
+  }
+
+    .weather-box p {
+    font-size: 2rem;
+  }
+  .weather-box span {
+    font-size: 0.75rem;
+    padding-left: 20px;
+  }
+  .weather-box .temperature{
+    font-size: 3.5rem;
+  }
+
+  .weather-box img {
+    width: 5rem;
+  }
+  .condition .condition-text {
+    margin-top: 0.1rem; /* Adjust this value as needed */
+}
+
+  nav{
+    height: 100px;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    background-color: rgba(180, 177, 177, 0.202);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav form {
+    width: 70%;
+    grid-template-columns: 5fr 1fr;
+    display: grid;
+  }
+  .searchField {
+    font-size: 1.1rem;
+    outline: none;
+    color: white;
+    background-color: transparent;
+    padding: 1rem 0;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 98%;
+  }
+  
+  nav form button {
+    background-color:#4ECDC4;
+    font-size: 1.1rem;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
